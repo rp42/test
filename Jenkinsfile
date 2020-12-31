@@ -21,6 +21,24 @@ pipeline {
           }
         }
 
+        stage('Build C') {
+          steps {
+            sh 'echo "Build C"'
+          }
+        }
+
+        stage('Build D') {
+          steps {
+            sh 'echo "Build D"'
+          }
+        }
+
+        stage('Build E') {
+          steps {
+            sh 'echo "build E"'
+          }
+        }
+
       }
     }
 
