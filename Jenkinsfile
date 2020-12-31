@@ -16,12 +16,10 @@ pipeline {
       steps {
         sh '''echo "Test 1"
 '''
-        sh '''echo "Test 2 failed";
+        sh '''echo "Test 2 ok";
 
 
- exit 42
-
-'''
+ exit 0'''
         sh '''echo "Test 3"
 '''
       }
